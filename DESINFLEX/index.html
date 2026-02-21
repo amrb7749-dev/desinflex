@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DESINFLEX® | Movilidad sin límites</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f5e3e6;
+    color:#333;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(135deg,#b22222,#8b0000);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:48px;
+    letter-spacing:2px;
+}
+
+header p{
+    font-size:20px;
+    margin-top:15px;
+}
+
+.hero-img{
+    margin-top:30px;
+}
+
+.hero-img img{
+    max-width:280px;
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.4));
+}
+
+/* BOTONES */
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 28px;
+    background:white;
+    color:#b22222;
+    font-weight:bold;
+    text-decoration:none;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#ffd6dc;
+    transform:scale(1.05);
+}
+
+/* SECCIONES */
+section{
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    color:#b22222;
+    margin-bottom:40px;
+    font-size:32px;
+}
+
+/* CARDS */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#b22222;
+    margin-bottom:10px;
+}
+
+/* PRODUCT IMAGE */
+.product{
+    text-align:center;
+}
+
+.product img{
+    max-width:450px;
+    margin-top:20px;
+}
+
+/* FOOTER */
+footer{
+    background:#8b0000;
+    color:white;
+    text-align:center;
+    padding:30px 15px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>DESINFLEX®</h1>
+    <p>Movilidad sin límites todos los días</p>
+    <div class="hero-img">
+        <img src="batido.png" alt="Batido DESINFLEX">
+    </div>
+    <a href="#beneficios" class="btn">Conoce sus beneficios</a>
+</header>
+
+<section id="beneficios">
+    <h2>¿Por qué elegir DESINFLEX®?</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Salud articular</h3>
+            <p>Apoya la movilidad y flexibilidad gracias a su fórmula con colágeno hidrolizado.</p>
+        </div>
+        <div class="card">
+            <h3>Con glucosamina</h3>
+            <p>Contribuye al mantenimiento del cartílago y estructuras articulares.</p>
+        </div>
+        <div class="card">
+            <h3>Vitamina C</h3>
+            <p>Participa en la formación normal de colágeno para el funcionamiento adecuado.</p>
+        </div>
+        <div class="card">
+            <h3>Sin azúcar añadida</h3>
+            <p>Ideal para quienes buscan una opción ligera y saludable.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Presentación del producto</h2>
+    <div class="product">
+        <img src="etiqueta.png" alt="Etiqueta DESINFLEX">
+        <p style="margin-top:20px;"><strong>Contenido neto:</strong> 550 g | Sabor frutos rojos</p>
+    </div>
+</section>
+
+<section>
+    <h2>Modo de uso</h2>
+    <div class="card" style="max-width:600px;margin:auto;text-align:center;">
+        Disolver una medida (10 g) en 250 ml de agua y mezclar hasta su completa disolución. Consumir una vez al día.
+    </div>
+</section>
+
+<section>
+    <h2>Información legal</h2>
+    <div class="card" style="max-width:800px;margin:auto;">
+        <p>Este producto no es un medicamento.</p>
+        <p>No exceder la dosis diaria recomendada.</p>
+        <p>Los complementos alimenticios no deben utilizarse como sustituto de una dieta equilibrada.</p>
+        <p>No se recomienda su consumo en menores de edad, mujeres embarazadas o en periodo de lactancia.</p>
+        <p>Consérvese en un lugar fresco y seco, a no más de 30°C.</p>
+    </div>
+</section>
+
+<section style="text-align:center;">
+    <h2>Contacto</h2>
+    <p>Laboratorios NutraVida S.A. de C.V.</p>
+    <p>Querétaro, México</p>
+    <p>contacto@nutravida.mx | 55 8421 7390</p>
+    <br>
+    <a href="#" class="btn">Comprar próximamente</a>
+</section>
+
+<footer>
+    © 2026 DESINFLEX® | Suplemento alimenticio | Hecho en México
+</footer>
+
+</body>
+</html>
